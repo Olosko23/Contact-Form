@@ -10,7 +10,7 @@ app.use(cors());
 dotenv.config();
 
 const URI = process.env.MONGO_URI;
-const PORT = 7000;
+const PORT = 8000;
 
 const contactSchema = new mongoose.Schema({
   email: String,
