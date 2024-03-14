@@ -23,7 +23,7 @@ const Contact = mongoose.model("Contact", contactSchema);
 mongoose
   .connect(URI, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useUnifiedTopology: true,
     // Remove the useCreateIndex option
     // useCreateIndex: true,
     writeConcern: { w: "majority" },
